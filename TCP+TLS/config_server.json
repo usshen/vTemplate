@@ -26,7 +26,10 @@
                     {
                         "certificateFile": "/path/to/example.domain/fullchain.cer",
                         "keyFile": "/path/to/example.domain.key"
-                    }
+                        //for letsencrypt
+                        //"certificateFile":"/etc/letsencrypt/live/example.domain/fullchain.pem",
+                        //"keyFile": "/etc/letsencrypt/live/example.domain/privkey.pem"
+                     }
                 ]
             },
             "wsSettings": null
