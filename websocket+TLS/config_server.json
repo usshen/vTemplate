@@ -28,6 +28,9 @@
                     {
                         "keyFile": "/path/to/example.domain.key",
                         "certificateFile": "/path/to/example.domain/fullchain.cer"
+                        //for letsenscrpt
+                        //"certificateFile":"/etc/letsencrypt/live/example.domain/fullchain.pem",
+                        //"keyFile": "/etc/letsencrypt/live/example.domain/privkey.pem"
                     }
                 ]
             },
